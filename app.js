@@ -47,4 +47,5 @@ function limpiar(){
 function reinicioJuego(){
     limpiar();
     document.getElementById("resultado").innerHTML="";
+    alert("El JUego ha sido reiniciado. Ya puedes ingresar una lista nueva de amigos")
 }
